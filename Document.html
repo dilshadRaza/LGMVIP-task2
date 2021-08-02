@@ -1,0 +1,129 @@
+
+<!-- saved from url=(0048)file:///D:/Web%20development/index.html#section3 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./Document_files/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./Document_files/jquery.min.js.download"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    <nav>
+        <ul>
+            <li><a href="file:///D:/Web%20development/index.html#section1">Home</a></li>
+            <li><a href="file:///D:/Web%20development/index.html#section2">Project</a></li>
+            <li><a href="file:///D:/Web%20development/index.html#section3">Skill</a></li>
+            <li><a href="file:///D:/Web%20development/index.html#section4">About us</a></li>
+            <li><a href="file:///D:/Web%20development/index.html#section5">Contact Me </a></li>
+        </ul>
+    </nav>
+    <div id="section1">
+        <img src="./Document_files/1.jpg" alt="" width="100%" height="100%">
+
+       <h1>I'm Muhammad Dilshad Raza</h1>
+  <h2>A Computer Science Student &amp; My Passion is to design and develop Program</h2>
+ <li><a href="file:///D:/Web%20development/index.html#section2">SEE MY WORK</a></li>
+    
+
+       
+
+    </div>
+    <div id="section2">
+
+        <h1>My Work</h1>
+        <div class="web">
+           <img src="./Document_files/web.jpg" alt="" width="180px">
+            <h3>Web Development</h3>
+            <p><em>I have Develop a Portfolio Website(link) on the basis of </em></p>
+            <p><em>I have decent knowledge about</em></p>
+            <p><em>Web Development both back-end and front-end.</em></p>
+            
+        </div>
+    
+    
+    <div class="open">
+    
+           <img src="./Document_files/open source.jpg" alt="" width="200px">
+            <h3>Open Source </h3>
+            <p><em>I have started to contribute in open source</em></p>
+           <p> <em>I also work on some project</em></p>
+           <p><em><a href="https://github.com/dilshadRaza" target="blank">github Profile</a></em></p>
+    
+        </div>
+      
+    
+        <div class="coding">
+            <img src="./Document_files/program.jpg" alt="" width="200px">
+            <h3>Coding skill</h3>
+            <p><em>I have good problem solving skill </em></p>
+            <p> <a href="https://www.hackerrank.com/DilshadRaza1" target="blank">hackerrank Profile</a></p>
+    
+        </div>
+
+    </div>
+    <div id="section3">
+        <h1>My Skill </h1>
+        <ul>
+            <b>
+                C/C++
+            </b>
+        </ul>
+        <ul>
+            <b>
+            Data Structure &amp; Algorithm
+            </b>
+        </ul>
+        <ul>
+            <b>
+                HTML
+            </b>
+        </ul>
+        <ul>
+            <b>
+                CSS
+            </b>
+        </ul>
+        <ul>
+            <b>
+                Javascript
+            </b>
+        </ul>
+        <ul>
+            <b>
+            
+            </b>
+        </ul>
+
+    </div>
+    <div id="section4">
+
+    </div>
+
+</body></html>
